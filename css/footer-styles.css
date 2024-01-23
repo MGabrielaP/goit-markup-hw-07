@@ -1,0 +1,10 @@
+.logo-second-colour-footer {
+    color: var(--logo-buttons-sectionfour-index-background-color);
+    font-size: 18px;
+    font-style: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-weight: 800px;
+  }
+  

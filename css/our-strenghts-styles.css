@@ -1,0 +1,50 @@
+
+.our-strenghts-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    height: 3200;
+    gap: 24px;
+    padding: 120px 0;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .our-strenghts-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 264px;
+    height: 112px;
+    background-color: var(--logo-buttons-sectionfour-index-background-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .section-two-list {
+    max-width: 100%;
+    min-width: 264px;
+    gap: 24px;
+  }
+  
+  
+  @media screen and (width <=768px) {
+    .section-two-list {
+      max-width: 100%;
+      gap: 24px;
+    }
+    
+    .our-strenghts-icons {
+      display: none;
+    }
+
+    .our-strenghts{
+      flex-wrap: wrap;
+    }
+
+    .list{
+      flex-wrap: wrap;
+    }
+  }
