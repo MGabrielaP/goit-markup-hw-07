@@ -13,7 +13,7 @@
   
   .section-four-pictures-background {
     background-color: #ffffffff;
-    width: calc((100% - 72px) / 4);
+    max-width: 264px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
       0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -25,16 +25,28 @@
     height: 260px;
   }
   
+  .team-member-card{
+    width: 264px;
+  }
+
   .section-four-pictures-padding {
     padding: 32px 0;
   }
   
-
-@media screen and (width <=768px) {
-
-    .section-four-pictures .section-four-pictures-background{
-        flex-direction: column;
-    }
+  .images-title-index-team{
+    text-align: center;
+   }
    
-  
+   .images-text-index-team{
+     text-align: center;
+     margin-bottom: 8px;
+   }
+
+@media screen and (width <=1158px) {
+.container-our-team{
+  width: 768px;
+height: 1224px;
+}
+
+
   }

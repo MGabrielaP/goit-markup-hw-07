@@ -54,3 +54,44 @@
     border-radius: 4px;
   }
   
+  @media screen and (width <=1158px) {
+    .hero-section{
+      max-width: 768px;
+    height: 436px;
+    }
+
+    .section-three {
+          display: none;
+        }
+
+    .container {
+      max-width: 768px;
+      max-height: 436px;
+    }
+
+  
+  }
+
+  @media screen and (width <=1158px) {
+
+    .hero-title {
+          max-width: 320px;
+          font-size: 36px;
+          line-height: 40px;
+          letter-spacing: 0.72px;
+          text-transform: capitalize;
+        }
+  
+  }
+
+  @media screen and (width <=768px) {
+
+    .hero-title {
+          max-width: 320px;
+          font-size: 36px;
+          line-height: 40px;
+          letter-spacing: 0.72px;
+          text-transform: capitalize;
+        }
+  
+  }

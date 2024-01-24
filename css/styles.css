@@ -281,7 +281,7 @@ display: block;
 }
 /* Classes for PORTFOLIO Page */
 
-@media screen and (width <=768px) {
+@media screen and (width <=1158px) {
   .list {
     list-style: none;
     display: flex;

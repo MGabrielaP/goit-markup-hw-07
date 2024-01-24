@@ -37,15 +37,18 @@
   }
 
 
-  @media screen and (width <=768px) {
+  @media screen and (width <=1158px) {
     .index-address-list {
       list-style: none;
       display: block;
       gap: 40px;
     
   }
+
+  .is-active::after {
+    bottom: :-1px;
 }
 
-  @media screen and (width <=428px) {
+  @media screen and (width <=768px) {
   
   }
