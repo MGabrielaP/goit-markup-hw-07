@@ -88,6 +88,7 @@ body {
   max-width: calc((100%-48px) / 3);
 }
 
+
 .section-four-pictures {
   display: flex;
   justify-content: center;
@@ -104,7 +105,7 @@ body {
   padding: 0px;
 }
 .social-media-list-item {
-  width: 40px;
+  max-width: 40px;
   height: 40px;
 }
 .social-media-icons {
@@ -217,6 +218,11 @@ display: block;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.img-section-four{
+  width: 264px;
+  height: 260px;
 }
 
 .section-four-pictures-padding {
@@ -400,6 +406,7 @@ display: block;
   display: flex;
   gap: 24px;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .customer-card {
@@ -503,4 +510,9 @@ background-color: transparent;
     gap: 24px;
     padding: 0;
   }
+
+  .section-three {
+        display: none;
+      }
+
 }
