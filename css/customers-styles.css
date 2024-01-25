@@ -1,0 +1,9 @@
+@media screen and (width <=1158px) {
+    .customer-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        max-width: 768px;
+        margin: auto;
+    }
+   
+   }
