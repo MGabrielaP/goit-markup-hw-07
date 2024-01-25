@@ -39,7 +39,7 @@
    
    .images-text-index-team{
      text-align: center;
-     margin-bottom: 8px;
+     margin-bottom: 8px ;
    }
 
 @media screen and (width <=1158px) {
@@ -48,5 +48,10 @@
 height: 1224px;
 }
 
+.section-four-background{
+  max-width: 768px;
+  height: 1224px;
+  margin: auto;
+}
 
   }
