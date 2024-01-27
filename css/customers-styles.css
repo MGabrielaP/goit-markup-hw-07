@@ -1,9 +1,114 @@
+.customer-container{
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: baseline;
+}
+
+.customer-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .customer-title {
+    color: var(--logo-titles-color);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  
+  .customer-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+  }
+  
+  .customer-card {
+    width: 168px;
+    height: 88px;
+  }
+  
+  .customer-card-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--customer-color);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .customer-card-link:hover,
+  .customer-card-link:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+  }
+  
+  .customer-logo {
+    width: 104px;
+    height: 56px;
+    fill: currentColor;
+  }
+  
+  .customer-logo:hover,
+  .customer-logo:focus {
+    fill: #404bbf;
+  }
+  
+
+
 @media screen and (width <=1158px) {
+
+  .customer-container{
+    max-width: 768px;
+  }
     .customer-section {
-        padding-top: 96px;
-        padding-bottom: 96px;
-        max-width: 768px;
         margin: auto;
+        gap: 96px;
     }
    
+    .customer-section .customer-list{
+      flex-wrap: wrap;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .customer-list{
+      padding: 0px 0px;
+    }
+
+    .customer-card{
+      margin-bottom: 72px;
+      fill: #8E8F99;
+      border-color: #8E8F99;
+    }
    }
+
+   @media screen and (width <=768px){
+    .customer-container{
+      max-width: 468px;
+    }
+
+    .customer-container {
+      padding: 0px;
+    }
+
+    .customer-list {
+      gap:16px;
+   }
+
+   .customer-card{
+    width: 190px;
+height: 88px;
+
+   }
+  }

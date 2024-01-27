@@ -7,4 +7,65 @@
     text-transform: uppercase;
     font-weight: 800px;
   }
+
+  .footer-tablet{
+    display:flex;
+   
+  }
+
+  @media screen and (width <=1158px) {
+  .index-footer {
+    max-width: 768px;
+    margin:auto;
+  }
+  .footer-container {
+    max-width: 768px;
+    display: inline-block;
+  }
+
+  .footer-social-media{
+    padding: 16px;
+  }
+
+  .footer-logo-and-text {
+    margin-right:24px;
+    margin-left: -45px;
+  }
+
+  .footer-tablet{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 72px;
+    margin-left: 108px;
+  }
   
+  .form-subscribe{
+    display: block;
+    margin-left: 108px;
+  }
+
+  .footer-text {
+    width: 264px;
+  }
+}
+
+@media screen and (width <=768px){
+  .index-footer {
+   
+    max-width: 468px;
+    text-align: center;
+}
+
+  .footer-container{
+   
+    max-width: 428px;
+  }
+
+  .footer-tablet {
+    display: block;
+    margin: 0px;
+}
+.form-footer {
+  display: block;
+}
+}
