@@ -55,3 +55,13 @@ height: 1224px;
 }
 
   }
+
+  @media screen and (width <=768px){
+    .container-our-team{
+      max-width: 468px;
+    }
+    .section-four-background{
+      height: 2232px;
+      max-width: 468px;
+    }
+  }
