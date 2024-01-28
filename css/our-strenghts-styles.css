@@ -92,22 +92,18 @@
   @media screen and (width <=768px){
 .container{
   max-height:fit-content;
-  max-width: 468px;
+ 
 }
 
 .images-title-index{
   text-align: center;
   display: block;
-  max-width: 468px;
+  
 }
 
 .section-two-list {
   max-width: 100%;
   margin-bottom: 0px;
-}
-
-..images-text-index {
-  max-width: 468px;
 }
 
 .our-strenghts-section{
@@ -116,10 +112,7 @@
 }
 
 .our-strenghts{
-  /* max-width: 468px; */
+  width: min-content;
 }
 
-/* .list{
-  max-width: 468px;
-} */
   }

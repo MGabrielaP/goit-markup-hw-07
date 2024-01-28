@@ -51,13 +51,15 @@
 
 @media screen and (width <=768px){
   .index-footer {
-   
     max-width: 468px;
     text-align: center;
 }
 
+.footer-logo-and-text {
+  margin-right:0;
+  margin-left: 0;
+}
   .footer-container{
-   
     max-width: 428px;
   }
 
