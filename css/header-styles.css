@@ -48,7 +48,8 @@
   .is-active::after {
     bottom:-1px;
 }
-  }
+
+}
 
   @media screen and (width <=768px) {
   .hero-button-mobile{
@@ -56,4 +57,23 @@
     background-color: none;
     transform: translate(390%, 15%) scale(1);
   }
+
+  .button{
+    margin-left: auto;
   }
+
+  .menu-nav{
+    display: none;
+  }
+  
+  .contacts{
+    display: none;
+  }
+}
+
+@media screen and (width > 468px) {
+  .button{
+    display: none;
+    }
+
+}
