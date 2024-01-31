@@ -51,8 +51,8 @@
 
 @media screen and (width <=768px){
   .index-footer {
-    max-width: 468px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-logo-and-text {
@@ -60,14 +60,50 @@
   margin-left: 0;
 }
   .footer-container{
-    max-width: 428px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-social-media{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-social-media-list{
+    margin-right:0px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .footer-tablet {
-    display: block;
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
 }
 .form-footer {
   display: block;
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+
+.form-subscribe{
+  display: flex;
+  margin-left: 0px;
+  flex-direction: column;
+  }
+
+  .footer-text{
+  margin-bottom: 72px;
+  }
+
+  .footer-form-entry-field {
+ width: 428px;
+}
+
+.footer-subscribe-button {
+  margin:auto;
+  margin-top: 16px;
 }
 }

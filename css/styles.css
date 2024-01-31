@@ -135,9 +135,8 @@ body {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  align-items: baseline;
+  padding: 15px 15px;
+  /* align-items: baseline; */
 }
 
 .nav-header {
@@ -270,6 +269,10 @@ display: block;
   align-items: baseline;
   display: flex;
 }
+
+
+
+
 /* Classes for PORTFOLIO Page */
 
 @media screen and (width <=1158px) {

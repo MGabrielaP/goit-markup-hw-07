@@ -28,6 +28,15 @@
     <link rel="stylesheet" href="./css/footer-styles.css" />
     <link rel="stylesheet" href="./css/mobile-styles.css"/>
 
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule=""
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+  ></script>
+
     <title>WebStudio</title>
   </head>
 
@@ -39,15 +48,6 @@
           <a href="" class="logo-first-colour link"
             >Web<span class="logo-second-colour-header">Studio</span>
           </a>
-
-          <div class="hero-button-mobile">
-            <button type="button" class=" pointer" mobile-open>
-              <svg width="32" height="22">
-                <use href="./images/icons.svg#menu" />
-              </svg>
-            </button>
-          </div>
-
           <ul class="list menu-nav">
             <li>
               <a
@@ -70,6 +70,7 @@
             </li>
           </ul>
         </nav>
+
         <address class="address">
           <ul class="index-address-list">
             <li>
@@ -84,8 +85,92 @@
             </li>
           </ul>
         </address>
+
+        <button class="btn-mobile-nav pointer js-open-menu" >
+          <svg >
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+
+
+       <!-- ce am adaugat (vezi in jos)-->
+
+
+      <div class="navigation js-menu-container" id="mobile-menu">
+        <button class="close-btn js-close-menu">
+          <svg class="firstred">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <nav class="nav-header">
+          <ul class="menu-nav-mobile list">
+            <li>
+              <a class="nav-header-ul-mobile link" href="./index.html" title=""
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a class="nav-header-ul-mobile link" href="./portfolio.html" title=""
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="nav-header-ul-mobile link" href="#" title="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="address-mobile">
+          <address class="mobile-menu-address">
+            <ul class="index-address-list-mobile list">
+              <li>
+                <a class="contacts-tel link" href="tel:+110001111111" title=""
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="contacts-email link" href="mailto:info@devstudio.com" title=""
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="social-list list">
+            <li class="insta">
+              <a href="" class="instagr">
+                <svg width="24" height="24" class="firstred">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="insta">
+              <a href="" class="instagr">
+                <svg width="24" height="24" class="firstred">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="insta">
+              <a href="" class="instagr">
+                <svg width="24" height="24" class="firstred">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="insta">
+              <a href="" class="instagr">
+                <svg width="24" height="24" class="firstred">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
+  <!-- ce am adaugat (vezi in sus) -->
+
 
     <!--Main-->
     <main>
@@ -652,7 +737,7 @@
 
       </div>
     </div>
+    <script src="./mobile-menu.js"></script>
     <script src="./modal.js"></script>
-    <script src="./mobile.js"></script>
   </body>
 </html>
