@@ -49,7 +49,7 @@ height: 1224px;
 }
 
 .section-four-background{
-  max-width: 768px;
+  /* max-width: 768px; */
   height: 1224px;
   margin: auto;
 }
@@ -62,6 +62,6 @@ height: 1224px;
     }
     .section-four-background{
       height: 2232px;
-      max-width: 468px;
+      /* max-width: 468px; */
     }
   }

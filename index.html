@@ -44,10 +44,19 @@
     <!-- Header - Menu Nav-->
     <header class="header">
       <div class="nav-flex container">
-        <nav class="list nav-header">
+        <nav class="list nav-header"> 
           <a href="" class="logo-first-colour link"
             >Web<span class="logo-second-colour-header">Studio</span>
           </a>
+          <button class="btn-mobile-nav pointer js-open-menu" >
+            <svg
+                          width="32"
+                          height="22"
+                          class="hamburger-menu"
+                        >
+                          <use href="./images/icons.svg#icon-menu" />
+                        </svg>
+          </button>
           <ul class="list menu-nav">
             <li>
               <a
@@ -86,11 +95,6 @@
           </ul>
         </address>
 
-        <button class="btn-mobile-nav pointer js-open-menu" >
-          <svg >
-            <use href="./images/icons.svg#menu"></use>
-          </svg>
-        </button>
       </div>
 
 
@@ -103,10 +107,12 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
+
         <nav class="nav-header">
+        
           <ul class="menu-nav-mobile list">
             <li>
-              <a class="nav-header-ul-mobile link" href="./index.html" title=""
+              <a class="nav-header-ul-mobile link is-active" href="./index.html" title=""
                 >Studio</a
               >
             </li>

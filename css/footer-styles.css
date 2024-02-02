@@ -15,7 +15,7 @@
 
   @media screen and (width <=1158px) {
   .index-footer {
-    max-width: 768px;
+    /* max-width: 768px; */
     margin:auto;
   }
   .footer-container {

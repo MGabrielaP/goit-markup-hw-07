@@ -79,24 +79,34 @@ insta}
   @media screen and (width <=768px) {
     .header {
 
-      padding: 24px;
-      position: relative;
-      
+      /* padding: 24px; */
+      /* position: relative; */
           }
 
-    .nav-flex {
-      margin: 0 auto;
+    .hamburger-menu {
+      fill: var(--logo-titles-color);
 
     }
+
+    
+
+    .menu-nav{
+      display: none;
+    }
+    
+    .address{
+      display: none;
+    }
+
     .btn-mobile-nav {
 
       display: block; 
-      /* position: absolute; */
+      position: absolute;
       right: 16px;
       background-color: transparent;
       border: none;
-      width: 32px;
-      height: 22px;
+      /* width: 32px;
+      height: 22px; */
       flex-shrink: 0;
   }
 
@@ -158,30 +168,27 @@ insta}
   cursor: pointer;
 }
 
-.menu-nav{
-  display: none;
-}
-
-.address{
-  display: none;
-}
-
 .menu-nav-mobile{
 display: block;
 gap: 40px;
 padding-bottom: 284px;
 }
 
+.nav-header-ul-mobile:hover {
+  color: #404BBF;
+}
+
 .nav-header-ul-mobile{
-color: #404BBF;
+
+color: var(--logo-titles-color);
 font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
 letter-spacing:0.72px;
 text-transform:capitalize;
-width: 151px;
-height: 40px;
+padding: 20px 0px;
+display: block;
 }
 
 .index-address-list-mobile{
@@ -207,11 +214,9 @@ text-transform: capitalize;
   font-weight: 500;
   line-height: 24px; 
   letter-spacing: 0.4px;
+  padding: 0px 0px 35px 0px;
+  display: block;
 }
-
-/* .firstred-mobile{
- ;
-} */
 
 .instagr {
   width: 100%;

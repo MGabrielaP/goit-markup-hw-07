@@ -154,8 +154,8 @@
 
 <symbol id="checkbox" viewBox="0 0 32 32"><path d="M27 4 12 19l-7-7-5 5 12 12L32 9z"/></symbol>
 
-<symbol id="menu" viewBox="0 0 32 32">
-<path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+<symbol id="icon-menu" viewBox="0 0 47 47">
+<path d="M2.938 8.813h41.125v8.813h-41.125zM2.938 20.563h41.125v8.813h-41.125zM2.938 32.313h41.125v8.813h-41.125z"></path>
 </symbol>
 
 </defs>

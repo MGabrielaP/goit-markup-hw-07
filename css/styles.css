@@ -65,6 +65,7 @@ body {
 .menu-nav {
   display: flex;
   gap: 40px;
+  justify-content: space-between;
 }
 
 .section-three {
@@ -135,7 +136,6 @@ body {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 15px 15px;
   /* align-items: baseline; */
 }
 
